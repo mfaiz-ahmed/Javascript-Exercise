@@ -149,7 +149,11 @@
 
 // daySpan.innerHTML = day[new Date().getDay()];
 
+
+
 // Q.14
+
+
 
 // const day = ["Sun" , "Mon" , "Tue" , "Wed" , "Thur" , "Fri" , "Sat"];
 
@@ -162,4 +166,56 @@
 // }else{
 //     daySpan.innerHTML = "It's Working day"
 // }
+
+
+// Q.18
+
+
+// const lastDate = new Date("31 December , 2020");
+// const date = document.querySelector('.date')
+
+// date.innerHTML = lastDate;
+
+// Q.23
+
+// const date = new Date().getFullYear();
+// const userInput = +prompt('Enter your Age');
+// const age = document.querySelector('.age');
+// const year = document.querySelector('.year');
+
+// age.innerHTML = userInput;
+
+// year.innerHTML = date - userInput;
+
+
+// Q.24
+
+// const monthArr = ['January' , 'Feburary' , 'March' , 'April' , 'May' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December']
+
+// const myName = "Faiz Ahmed";
+// const month = monthArr [new Date().getMonth()];
+// const units = 450;
+// const charges = 14;
+// const total = units * charges;
+// const extra = 500;
+// const extraTotal = total + extra;
+
+
+// const nameSpan = document.querySelector('.name-span');
+// const monthSpan = document.querySelector('.month-span');
+// const unitsSpan = document.querySelector('.units-span');
+// const chargesSpan = document.querySelector('.charges-span');
+// const totalSpan = document.querySelector('.total-span');
+// const extraSpan = document.querySelector('.extra-span');
+// const extraTotalSpan = document.querySelector('.extra-total-span');
+
+
+// nameSpan.innerHTML = myName;
+// monthSpan.innerHTML = month;
+// unitsSpan.innerHTML = units;
+// chargesSpan.innerHTML = charges;
+// totalSpan.innerHTML = total;
+// extraSpan.innerHTML = extra;
+// extraTotalSpan.innerHTML = extraTotal;
+
 
