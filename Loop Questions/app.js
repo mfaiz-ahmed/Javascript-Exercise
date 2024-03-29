@@ -198,4 +198,39 @@
 
 // Q.20
 
+// part "a"
 
+// const str = "*****";
+
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(str);
+    
+// }
+
+
+// part "b"
+
+
+// let str = '';
+
+
+// for (let i = 0; i <= 5; i++) {
+//     str += "*";
+//     console.log(str);
+// }
+
+
+// part "c"
+
+
+// const num = 5 ;
+// let str = " ";
+
+// for (let i = num; i >=1; i--) {
+//     for (let j = 1; j <= i; j++) {
+//         str += "*";
+//     }
+//     console.log(str);
+//     str = ""
+// }

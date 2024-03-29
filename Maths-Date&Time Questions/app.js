@@ -163,6 +163,3 @@
 //     daySpan.innerHTML = "It's Working day"
 // }
 
-
-// Q.16
-
